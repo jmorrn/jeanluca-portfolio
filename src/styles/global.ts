@@ -9,11 +9,11 @@ export default createGlobalStyle`
 
   :root {
     --white: #ffffff;
+    --black: #121214;
+    --footer-black: #151517;
+    --blue-100: #007FFF;
+    --blue-500: #005AB6;
 
-    --gray-100: #e1e1e6;
-    --gray-900: #121214;
-
-    --green-500: #35D86B;
   }
 
   @media (max-width: 1080px) {
@@ -38,7 +38,7 @@ export default createGlobalStyle`
   textarea,
   select,
   button {
-    font: 400 1rem 'Nunito', sans-serif;
+    font: 400 1rem 'Montserrat', sans-serif;
   }
 
   button {
