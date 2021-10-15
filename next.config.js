@@ -2,5 +2,5 @@ const withImages = require('next-images')
 
 module.exports = withImages({
   esModule: true,
-  trailingSlash: true
+  trailingSlash: true,
 })

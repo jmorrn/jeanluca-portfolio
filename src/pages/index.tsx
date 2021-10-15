@@ -8,7 +8,7 @@ const HomePage: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Kedros Next</title>
+        <title>Jeanluca Moreno | Portfólio</title>
       </Head>
 
       <Home />
