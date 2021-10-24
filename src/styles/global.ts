@@ -10,9 +10,8 @@ export default createGlobalStyle`
   :root {
     --white: #ffffff;
     --black: #121214;
-    --footer-black: #151517;
-    --blue-100: #007FFF;
-    --blue-500: #005AB6;
+    --light-gray: #E1E1E6;
+    --dark-gray: #29292E;
 
   }
 
@@ -29,8 +28,8 @@ export default createGlobalStyle`
   }
 
   body {
-    background: var(--gray-900);
-    color: var(--gray-100);
+    background: var(--black);
+    color: var(--light-gray);
   }
 
   body,
