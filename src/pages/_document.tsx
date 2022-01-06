@@ -58,12 +58,6 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
 
-          {/* DM Serif */}
-          <link
-            href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap"
-            rel="stylesheet"
-          />
-
           {/* Montsserat */}
           <link
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"

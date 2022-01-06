@@ -32,6 +32,11 @@ export default createGlobalStyle`
     color: var(--light-gray);
   }
 
+
+  #__next{
+    max-width: 100%
+  }
+
   body,
   input,
   textarea,
@@ -48,4 +53,22 @@ export default createGlobalStyle`
     color: inherit;
     text-decoration: none;
   }
+
+
+  
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--dark-gray);
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: var(--light-gray);
+
+}
+
+
 `

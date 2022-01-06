@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "title": "IPCA: inflação oficial fica em 1,25% em outubro e atinge 10,67% em 12 meses",
+    "text": "Puxado pela alta da gasolina, o Índice Nacional de Preços ao Consumidor Amplo (IPCA), considerado a inflação oficial do país, acelerou para 1,25% em outubro, após ter registrado taxa de 1,16% em setembro, mostram os dados divulgados nesta quarta-feira (10) pelo Instituto Brasileiro de Geografia e Estatística (IBGE).Foi a maior variação para um mês de outubro desde 2002 (1,31%), destacou o IBGE. Com o resultado, a inflação acumula alta de 8,24% no ano e de 10,67% nos últimos 12 meses, acima do registrado nos 12 meses imediatamente anteriores (10,25%).",
+    "description": "Foi a maior alta para um mês de outubro desde 2002. Gasolina foi a vilã da inflação no mês com uma alta de 3,10%, e salto em 12 meses chega a 42,72%.",
+    "created_at": "2021-11-06T02:07:24.448Z",
+    "author_name": "Jeanluca-Moren0",
+    "author_avatar_url": "https://avatars.githubusercontent.com/u/53027683?v=4"
+  },
+  {
+    "id": "2",
+    "title": "Blog2",
+    "text": "n publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before",
+    "description": "n publishing and graphic design, Lorem ipsum is a placeholder...",
+    "created_at": "2021-11-07T02:07:24.448Z",
+    "author_name": "Jeanluca-Moren0",
+    "author_avatar_url": "https://avatars.githubusercontent.com/u/53027683?v=4"
+  },
+  {
+    "id": "3",
+    "title": "Blog3",
+    "text": "n publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before",
+    "description": "n publishing and graphic design, Lorem ipsum is a placeholder...",
+    "created_at": "2021-11-07T02:07:24.448Z",
+    "author_name": "Jeanluca-Moren0",
+    "author_avatar_url": "https://avatars.githubusercontent.com/u/53027683?v=4"
+  },
+  {
+    "id": "4",
+    "title": "Blog4",
+    "text": "n publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before",
+    "description": "n publishing and graphic design, Lorem ipsum is a placeholder...",
+    "created_at": "2021-11-07T02:07:24.448Z",
+    "author_name": "Jeanluca-Moren0",
+    "author_avatar_url": "https://avatars.githubusercontent.com/u/53027683?v=4"
+  },
+  {
+    "id": "5",
+    "title": "Blog1 ta ligado",
+    "text": "n publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before",
+    "description": "n publishing and graphic design, Lorem ipsum is a placeholder...",
+    "created_at": "2021-11-06T02:07:24.448Z",
+    "author_name": "Jeanluca-Moren0",
+    "author_avatar_url": "https://avatars.githubusercontent.com/u/53027683?v=4"
+  },
+  {
+    "id": "6",
+    "title": "Blog2",
+    "text": "n publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before",
+    "description": "n publishing and graphic design, Lorem ipsum is a placeholder...",
+    "created_at": "2021-11-07T02:07:24.448Z",
+    "author_name": "Jeanluca-Moren0",
+    "author_avatar_url": "https://avatars.githubusercontent.com/u/53027683?v=4"
+  },
+  {
+    "id": "7",
+    "title": "Blog3",
+    "text": "n publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before",
+    "description": "n publishing and graphic design, Lorem ipsum is a placeholder...",
+    "created_at": "2021-11-07T02:07:24.448Z",
+    "author_name": "Jeanluca-Moren0",
+    "author_avatar_url": "https://avatars.githubusercontent.com/u/53027683?v=4"
+  },
+  {
+    "id": "8",
+    "title": "Blog4",
+    "text": "n publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before",
+    "description": "n publishing and graphic design, Lorem ipsum is a placeholder...",
+    "created_at": "2021-11-07T02:07:24.448Z",
+    "author_name": "Jeanluca-Moren0",
+    "author_avatar_url": "https://avatars.githubusercontent.com/u/53027683?v=4"
+  }
+]
