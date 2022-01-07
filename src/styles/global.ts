@@ -42,7 +42,11 @@ export default createGlobalStyle`
   textarea,
   select,
   button {
-    font: 400 1rem 'Montserrat', sans-serif;
+    font: 400 1rem 'Mulish', sans-serif;
+  }
+
+  h1,h2,h3,h4,h5,h6{
+    font: 400 1rem 'Philosopher', sans-serif;
   }
 
   button {
@@ -55,7 +59,7 @@ export default createGlobalStyle`
   }
 
 
-  
+
 ::-webkit-scrollbar {
   width: 16px;
 }
