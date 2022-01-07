@@ -28,7 +28,7 @@ export const Container = styled.header`
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
 
     li {
@@ -56,6 +56,20 @@ export const Container = styled.header`
       :hover {
         font-size: 1.1em;
         filter: brightness(0.9);
+      }
+    }
+
+    .socialMedia {
+      width: 100%;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: flex-end;
+
+      a {
+        > svg {
+          width: 1.5rem;
+          height: 1.5rem;
+        }
       }
     }
   }
