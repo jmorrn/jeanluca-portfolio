@@ -15,7 +15,7 @@ export const Blog: React.FC = () => {
   }, [])
 
   return (
-    <Layout>
+    <Layout label="Meu blog.">
       {posts.map(post => (
         <a href={`/posts/${post.id}`} key={post.id}>
           <PostsTemplate post={post} />

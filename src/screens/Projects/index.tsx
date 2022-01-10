@@ -18,8 +18,8 @@ export const Projects: React.FC = () => {
   }, [])
 
   return (
-    <Layout>
-      <p style={{ marginBottom: '1rem' }}>
+    <Layout label="Meus projetos.">
+      <p style={{ fontSize: '1.25em', marginBottom: '1rem' }}>
         Repositórios disponíveis no meu GitHub. Em breve mais projetos!{' '}
         <span role="img" aria-label="happy">
           😄
