@@ -1,3 +1,6 @@
+import { ReactNode } from 'react'
+import { MdOutlineFileDownload } from 'react-icons/md'
+
 import { Header } from '@components/Header'
 
 import {
@@ -7,24 +10,40 @@ import {
   LeftContainer,
   ItemsWrapper,
   Hero,
+  Content,
+  TextContainer,
+  Button,
   Text,
-  Line,
   LogoContainer,
 } from './styles'
 
-const Layout: React.FC = ({ children }) => {
+interface ILayout {
+  children: ReactNode
+  label: string
+}
+
+const Layout: React.FC<ILayout> = ({ children, label }) => {
   return (
     <Container>
       <Header />
       <ContentContainer>
-        <RightContainer>{children}</RightContainer>
         <LeftContainer>
           <ItemsWrapper>
             <Hero>
-              <img src="/images/Jeanluca.jpg" alt="Foto Jeanluca Moreno" />
+              <img src="/images/Jeanluca3.jpg" alt="Foto Jeanluca Moreno" />
             </Hero>
-            <Text>Olá, me chamo Jeanluca Moreno!</Text>
-            <Line />
+            <TextContainer>
+              <Text>{label}</Text>
+              <Button
+                href="/pdf/JeanlucaMorenoC.pdf"
+                className="buttonCurriculum"
+                target="_blank"
+              >
+                <MdOutlineFileDownload />
+                Currículo
+              </Button>
+            </TextContainer>
+
             <LogoContainer>
               <a href="https://monts.com.br/" target="_blank" rel="noreferrer">
                 <img src="/logo.svg" alt="Monts." />
@@ -35,6 +54,9 @@ const Layout: React.FC = ({ children }) => {
             </LogoContainer>
           </ItemsWrapper>
         </LeftContainer>
+        <RightContainer>
+          <Content>{children}</Content>
+        </RightContainer>
       </ContentContainer>
     </Container>
   )
