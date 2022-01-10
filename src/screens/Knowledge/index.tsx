@@ -4,7 +4,7 @@ import knowledges from '@assets/data/knowledge.json'
 import Card from '@components/Card'
 import Layout from '@components/Layout'
 
-import { Container } from './styles'
+import { Filter, CardContent } from './styles'
 
 const allCategories = [
   'Todos',
@@ -29,8 +29,8 @@ export const Knowledge: React.FC = () => {
   }
 
   return (
-    <Layout>
-      <div className="filter">
+    <Layout label="Meus conhecimentos.">
+      <Filter>
         <p>Filtros: </p>
 
         {button?.map((btn, index) => (
@@ -45,9 +45,9 @@ export const Knowledge: React.FC = () => {
             {btn}
           </button>
         ))}
-      </div>
+      </Filter>
 
-      <div className="cardContent">
+      <CardContent>
         {items.map(item => (
           <Card
             title={item.Tech}
@@ -56,7 +56,7 @@ export const Knowledge: React.FC = () => {
             key={item.id}
           />
         ))}
-      </div>
+      </CardContent>
     </Layout>
   )
 }
