@@ -37,8 +37,6 @@ export const Header: React.FC = () => {
             </a>
           </div>
         </ul>
-
-        <hr />
       </div>
     </Container>
   )

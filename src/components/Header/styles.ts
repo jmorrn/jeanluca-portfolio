@@ -1,21 +1,25 @@
 import styled from 'styled-components'
 
 export const Container = styled.header`
-  display: block;
-  position: relative;
+  display: flex;
+  padding: 36px;
+  width: 60%;
+  align-self: flex-end;
+
+  @media (max-width: 1024px) {
+    width: 100%;
+    z-index: 1;
+  }
 
   .menuContent {
-    position: absolute;
-    width: 50%;
-    right: 0;
-    padding: 36px;
+    width: 100%;
+    float: right;
+    height: 70px;
+    border-bottom: 1px solid var(--white);
 
     @media (max-width: 792px) {
       width: 100%;
       z-index: 1;
-    }
-    @media (max-width: 792px) {
-      padding: 16px 36px;
     }
 
     @media (max-width: 366px) {
@@ -66,6 +70,10 @@ export const Container = styled.header`
       justify-content: flex-end;
 
       a {
+        margin-right: 8px;
+        :nth-child(2) {
+          margin-right: 0;
+        }
         > svg {
           width: 1.5rem;
           height: 1.5rem;
