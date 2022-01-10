@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const CardContainer = styled.div`
+const CardContainer = styled.div`
   position: relative;
   width: 100%;
   max-width: 250px;
@@ -15,6 +15,7 @@ export const CardContainer = styled.div`
   margin-bottom: 1rem;
   border-radius: 8px;
   border: none;
+  margin: 1rem;
 
   :hover {
     border: 2px solid var(--white);
@@ -31,11 +32,12 @@ export const CardContainer = styled.div`
   > img {
     border-radius: 8px;
     width: 100%;
-    max-width: 150px;
+    max-width: 100px;
   }
 
   h3 {
     font-size: 1.2em;
+    font-weight: bold;
     margin-top: 1rem;
   }
 
@@ -43,3 +45,12 @@ export const CardContainer = styled.div`
     margin-top: 0;
   }
 `
+
+const CardInfo = styled.div`
+  position: absolute;
+  bottom: 0;
+  padding: 0.5rem 0;
+  text-align: center;
+`
+
+export { CardContainer, CardInfo }

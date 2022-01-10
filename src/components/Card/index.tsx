@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { CardContainer } from './styles'
+import { CardContainer, CardInfo } from './styles'
 
 interface ICard {
   title: string
@@ -11,9 +11,11 @@ interface ICard {
 const Card: React.FC<ICard> = ({ title, img, status }) => {
   return (
     <CardContainer>
-      <img src={img} alt="JavascriptLogo" />
-      <h3>{title}</h3>
-      <p>{status}</p>
+      <img src={img} alt={title} />
+      <CardInfo>
+        <h3>{title}</h3>
+        <p>{status}</p>
+      </CardInfo>
     </CardContainer>
   )
 }
