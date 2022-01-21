@@ -9,11 +9,11 @@ const Filter = styled.div`
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        font-size: 1.25em;
+
 
         button {
           cursor: pointer;
-          min-width: 12px;
+          width: 250px;
           height: 32px;
           margin-left: 1rem;
           font-size: 12px;
@@ -22,10 +22,35 @@ const Filter = styled.div`
           border-radius: 5px;
           color: var(--white);
           border: 2px solid var(--white);
+
+          @media(max-width: 600px){
+            margin-left: 0;
+            margin-top : 1rem;
+          }
+
+
+          @media(max-width: 295px){
+            width: 200px;
+          }
+
+
+        }
+
+        p{
+          font-size: 1.25em;
+          @media(max-width: 600px){
+            align-self: flex-start;
+          }
+
         }
         .active {
           background: var(--white);
           color: var(--black);
+        }
+
+        @media(max-width: 600px){
+          flex-direction: column;
+          width: fit-content;
         }
 
 
