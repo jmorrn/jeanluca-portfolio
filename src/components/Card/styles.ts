@@ -22,7 +22,7 @@ const CardContainer = styled.div`
   }
 
   @media (max-width: 570px) {
-    margin-top: 1rem;
+    margin: 1rem 0;
 
     :nth-child(1) {
       margin-top: 0;
