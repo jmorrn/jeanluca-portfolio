@@ -35,6 +35,7 @@ const LeftContainer = styled.aside`
 
   @media (max-width: 1024px) {
     width: 100vw;
+    height: 50vh;
   }
 `
 const ItemsWrapper = styled.div`
@@ -65,7 +66,7 @@ const Hero = styled.div`
 
   img {
     object-fit: cover;
-    object-position: 70% bottom;
+    object-position: center;
     height: 100vh;
     opacity: 0.6;
     width: 40vw;
@@ -131,6 +132,10 @@ const Text = styled.h1`
   font-size: 2rem;
   @media (max-width: 1185px) {
     font-size: 1.5rem;
+  }
+
+  @media (max-width: 318px) {
+    text-align: center;
   }
 `
 

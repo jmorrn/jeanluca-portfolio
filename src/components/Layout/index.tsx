@@ -1,4 +1,4 @@
-import { ReactNode } from 'react'
+import { ReactNode, useState } from 'react'
 import { MdOutlineFileDownload } from 'react-icons/md'
 
 import { Header } from '@components/Header'
@@ -23,14 +23,22 @@ interface ILayout {
 }
 
 const Layout: React.FC<ILayout> = ({ children, label }) => {
+  const [isOpenMobile, setIsOpenMobile] = useState(false)
+
   return (
     <Container>
-      <Header />
-      <ContentContainer>
+      <Header
+        isMobile={isOpenMobile}
+        onChange={value => setIsOpenMobile(value)}
+      />
+
+      <ContentContainer
+        style={isOpenMobile === true ? { display: 'none' } : {}}
+      >
         <LeftContainer>
           <ItemsWrapper>
             <Hero>
-              <img src="/images/Jeanluca3.jpg" alt="Foto Jeanluca Moreno" />
+              <img src="/images/Jeanluca2.webp" alt="Foto Jeanluca Moreno" />
             </Hero>
             <TextContainer>
               <Text>{label}</Text>
