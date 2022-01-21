@@ -6,6 +6,7 @@ import Figure from '@components/Figure'
 import Layout from '@components/Layout'
 
 export const Projects: React.FC = () => {
+  
   const [projects, setProjects] = useState([])
 
   useEffect(() => {
@@ -13,7 +14,6 @@ export const Projects: React.FC = () => {
       .get('https://api.github.com/users/Jeanluca-Moren0/repos')
       .then(response => {
         setProjects(response.data.filter(project => !project.fork))
-        console.log(response.data)
       })
   }, [])
 
