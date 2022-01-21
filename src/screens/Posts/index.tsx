@@ -17,11 +17,9 @@ interface IPostProps {
 }
 
 const Posts: React.FC<IPostProps> = ({ posts }) => {
-  console.log(posts)
   return (
-    <Layout>
+    <Layout label={posts.title}>
       <Container>
-        <h1 className="postTitle">{posts.title}</h1>
         <p className="postDescription">{posts.description}</p>
 
         <p className="postContent">{posts.text}</p>
