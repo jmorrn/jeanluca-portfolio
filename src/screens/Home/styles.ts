@@ -1,11 +1,14 @@
 import styled from 'styled-components'
 
-export const Container = styled.main`
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  min-height: 100vh;
-  overflow: hidden;
+const Paragraph = styled.p`
+  line-height: 24px;
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+  text-align: left;
+
+  :nth-child(1) {
+    margin-top: 0;
+  }
 `
+
+export { Paragraph }

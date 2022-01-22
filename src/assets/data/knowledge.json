@@ -1,0 +1,95 @@
+[
+  {
+    "id": "1",
+    "Tech": "Javascript",
+    "status": "Tenho conhecimento",
+    "logo": "/images/cards/javascript.png"
+  },
+  {
+    "id": "2",
+    "Tech": "SASS",
+    "status": "Tenho conhecimento",
+    "logo": "/images/cards/SASS.png"
+  },
+  {
+    "id": "3",
+    "Tech": "ReactJS",
+    "status": "Tenho conhecimento",
+    "logo": "/images/cards/React.png"
+  },
+  {
+    "id": "4",
+    "Tech": "NodeJS",
+    "status": "Tenho conhecimento",
+    "logo": "/images/cards/Node.png"
+  },
+  {
+    "id": "5",
+    "Tech": "PHP",
+    "status": "Tenho conhecimento",
+    "logo": "/images/cards/php.png"
+  },
+  {
+    "id": "6",
+    "Tech": "MySQL",
+    "status": "Tenho conhecimento",
+    "logo": "/images/cards/mysql.png"
+  },
+  {
+    "id": "7",
+    "Tech": "PostgreSQL",
+    "status": "Estou estudando",
+    "logo": "/images/cards/postgresSQL.png"
+  },
+  {
+    "id": "8",
+    "Tech": "NextJS",
+    "status": "Estou estudando",
+    "logo": "/images/cards/NextJs.png"
+  },
+
+  {
+    "id": "9",
+    "Tech": "Python",
+    "status": "Estou estudando",
+    "logo": "/images/cards/Python.png"
+  },
+  {
+    "id": "10",
+    "Tech": "Amazon Web Services",
+    "status": "Estou estudando",
+    "logo": "/images/cards/AWS.png"
+  },
+
+  {
+    "id": "11",
+    "Tech": "Google Cloud",
+    "status": "Tenho Interesse",
+    "logo": "/images/cards/GoogleCloud.png"
+  },
+  {
+    "id": "12",
+    "Tech": "Docker",
+    "status": "Tenho Interesse",
+    "logo": "/images/cards/Docker.png"
+  },
+
+  {
+    "id": "13",
+    "Tech": "Angular",
+    "status": "Tenho Interesse",
+    "logo": "/images/cards/Angular.png"
+  },
+  {
+    "id": "14",
+    "Tech": "React Native",
+    "status": "Tenho Interesse",
+    "logo": "/images/cards/ReactNative.png"
+  },
+  {
+    "id": "15",
+    "Tech": "NestJS",
+    "status": "Estou estudando",
+    "logo": "/images/cards/Nest.png"
+  }
+]
