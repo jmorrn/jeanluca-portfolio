@@ -31,9 +31,6 @@ export const Header: React.FC<IHeaderProps> = props => {
           <li>
             <a href="/projects">Projetos</a>
           </li>
-          <li>
-            <a href="/blog">Blog</a>
-          </li>
           <div className="socialMedia">
             <a
               href="https://github.com/Jeanluca-Moren0"

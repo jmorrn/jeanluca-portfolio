@@ -1,17 +1,10 @@
-import React, { useEffect } from 'react'
-
-import { api } from 'src/services/api'
+import React from 'react'
 
 import Layout from '@components/Layout'
 
 import { Paragraph } from './styles'
 
 const Home: React.FC = () => {
-  useEffect(() => {
-    api.get('blog').then(response => {
-      console.log(response.data)
-    })
-  }, [])
   return (
     <Layout label="Olá, me chamo Jeanluca Moreno!">
       <Paragraph>
