@@ -43,7 +43,7 @@ const Layout: React.FC<ILayout> = ({ children, label }) => {
             <TextContainer>
               <Text>{label}</Text>
               <Button
-                href="/pdf/JeanlucaMorenoC.pdf"
+                href="/pdf/Curriculo2022.pdf"
                 className="buttonCurriculum"
                 target="_blank"
               >
