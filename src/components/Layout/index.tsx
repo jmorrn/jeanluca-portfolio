@@ -1,47 +1,37 @@
 import { ReactNode, useState } from 'react'
-import { MdOutlineFileDownload } from 'react-icons/md'
 
+import Footer from '@components/Footer'
 import { Header } from '@components/Header'
-
-import {
-  Container,
-  ContentContainer,
-  RightContainer,
-  LeftContainer,
-  ItemsWrapper,
-  Hero,
-  Content,
-  TextContainer,
-  Button,
-  Text,
-  LogoContainer,
-} from './styles'
 
 interface ILayout {
   children: ReactNode
-  label: string
 }
 
-const Layout: React.FC<ILayout> = ({ children, label }) => {
-  const [isOpenMobile, setIsOpenMobile] = useState(false)
-
+function Layout({ children }: ILayout) {
   return (
-    <Container>
-      <Header
-        isMobile={isOpenMobile}
-        onChange={value => setIsOpenMobile(value)}
-      />
+    <>
+      <Header />
+      <main className="lg:grid lg:grid-cols-2 h-full ">
+        <div className="h-full flex flex-1 flex-col ml-16 ">
+          <img
+            src="/images/Jeanluca2.webp"
+            alt="Foto Jeanluca Moreno"
+            className="object-cover opacity-90 h-full rounded-tr-md rounded-br-md"
+          />
+        </div>
+        <div className="overflow-y-scroll p-6">{children}</div>
 
-      <ContentContainer
+        {/* <ContentContainer
         style={isOpenMobile === true ? { display: 'none' } : {}}
       >
-        <LeftContainer>
-          <ItemsWrapper>
+         <LeftContainer>
+           <ItemsWrapper>
             <Hero>
               <img src="/images/Jeanluca2.webp" alt="Foto Jeanluca Moreno" />
             </Hero>
             <TextContainer>
               <Text>{label}</Text>
+
               <Button
                 href="/pdf/Curriculo2022.pdf"
                 className="buttonCurriculum"
@@ -65,8 +55,9 @@ const Layout: React.FC<ILayout> = ({ children, label }) => {
         <RightContainer>
           <Content>{children}</Content>
         </RightContainer>
-      </ContentContainer>
-    </Container>
+      </ContentContainer> */}
+      </main>
+    </>
   )
 }
 
