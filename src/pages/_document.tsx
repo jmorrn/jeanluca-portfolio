@@ -58,17 +58,12 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
 
-          {/* Philosopher */}
+          {/* Arimo */}
           <link
-            href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&display=swap"
             rel="stylesheet"
           />
         </Head>
-        {/* Mulish */}
-        <link
-          href="https://fonts.googleapis.com/css2?family=Mulish&display=swap"
-          rel="stylesheet"
-        />
         <body>
           <Main />
           <NextScript />
